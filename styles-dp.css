@@ -1,0 +1,262 @@
+/* FULL PAGE */
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+header {
+  background-color: #75e2e6;
+  border-style: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #048eaa;
+  margin: 0px;
+  height: 60px;
+}
+
+img.logo {
+  height: 40px;
+  position: relative;
+  top: 6px;
+  left: 15px;
+}
+
+.heading {
+  font-size: 36px;
+}
+
+nav {
+  position: absolute;
+  top: 6px;
+  right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: 000000;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 85%;
+  font-weight: 500;
+  letter-spacing: .5px;
+}
+
+ul {
+  display: inline;
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: #C6C9CE;
+  border-radius: 5px;
+  font-size: 12px;
+  position: absolute;
+}
+
+.tooltip-button:hover .tooltip {
+  visibility: visible;
+}
+
+/* NAME DOG SECTION */
+.name-dog {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/park.jpg");
+  background-size: 100% 100%;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.button-submit {
+  background-color: #75e2e6;
+  color: #000000;
+  border: 0;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 85%;
+  font-weight: 600;
+  letter-spacing: .6px;
+  margin: 10px 0px 10px 0px;
+  width: 300px;
+  height: 30px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.name {
+  text-align: left;
+  font-size: 90%;
+  margin: 0 0 5px 0;
+}
+
+.text-box {
+  width: 300px;
+  border: 0;
+  height: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+#title-pic {
+  width: 20%;
+}
+
+h1 {
+  clear: both;
+  font-size: 150%;
+}
+
+.some-dogs {
+  font-weight: 900;
+  text-shadow: 1.9px 0 #ffffff;
+  letter-spacing: 2px;
+}
+
+.lighter {
+  font-weight: lighter;
+}
+
+/* COLUMNED SECTION */
+h2 {
+  font-weight: 900;
+  text-shadow: 1.2px 0 #000000;
+  font-size: 100%;
+  letter-spacing: 1px;
+}
+
+.dog-text {
+  width: 95%;
+  text-align: left;
+  font-size: 75%;
+  font-weight: 600;
+  padding: 0 0 35px 0;
+  letter-spacing: .5px;
+  margin: 0 auto;
+}
+
+.columns {
+ text-align: center;
+ height: 50%
+ position: relative;
+ top: 0px;
+ vertical-align: top;
+ width: 30%;
+ display: inline-block;
+ padding: 2%;
+ margin: 1%;
+}
+
+button {
+  background-color: #048eaa;
+  color: #ffffff;
+  border: none;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 75%;
+  height: 35px;
+  margin: 0 1% 0 1%;
+  width: 30%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+img.round-dog {
+  border-radius: 100%;
+  width: 80%;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #048eaa;
+  margin: 20px;
+}
+
+.mq-button {
+  display: none;
+}
+
+/* FOOTER */
+footer {
+  background-color: #048eaa;
+  color: #ffffff;
+  text-align: center;
+  padding: 25px;
+  font-size: 90%;
+  margin: 40px 0 0 0;
+}
+
+img.social-logo {
+  margin: 15px 8px 0px 8px;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 470px) {
+  header {
+    height: 80px;
+  }
+
+    img.logo {
+      margin: 12px 0 0 4px;
+    }
+
+  li {
+    display: block;
+    padding: 0;
+    /* margin: -6px; */
+  }
+
+  nav {
+    margin: 0 5px 0 0;
+  }
+
+  #title-pic {
+    width: 50%;
+  }
+
+  .form {
+    width: 200px;
+    margin: 0 auto;
+  }
+
+  .button-submit {
+    width: 200px;
+  }
+
+  .text-box {
+    width: 200px;
+  }
+
+  .columns {
+    display: block;
+    width: 94%;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  .mq-button {
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .social-logo {
+      width: 40px;
+      margin: 0;
+      padding: 0;
+    }
+}

@@ -10,12 +10,6 @@ var factsText = document.querySelector("#facts-text");
 var mqHowButton = document.querySelector("#mq-how-button");
 var mqWhatButton = document.querySelector("#mq-what-button");
 var mqFactsButton = document.querySelector("#mq-facts-button");
-var howCheckbox = document.getElementById("how-checkbox");
-var whatCheckbox = document.getElementById("what-checkbox");
-var factsCheckbox = document.getElementById("facts-checkbox");
-var changeTextButton = document.querySelector("#change-paragraph-button");
-var textInput = document.getElementById("change-paragraphs");
-var warningMessage = document.querySelector(".warning");
 
 nameDogButton.addEventListener("click", function() {
   var updatedName = nameInput.value;
@@ -71,6 +65,13 @@ mqFactsButton.addEventListener("click", function() {
 });
 
 //Could not get #3 on Iteration 3 to work
+// var howCheckbox = document.getElementById("how-checkbox");
+// var whatCheckbox = document.getElementById("what-checkbox");
+// var factsCheckbox = document.getElementById("facts-checkbox");
+// var changeTextButton = document.querySelector("#change-paragraph-button");
+// var textInput = document.getElementById("change-paragraphs");
+// var warningMessage = document.querySelector(".warning");
+
 // updatedText = textInput.value;
 // changeTextButton.addEventListener("click", function() {
 //   if (howCheckbox.checked == true) {
